@@ -1,12 +1,18 @@
 # 🛡️ Enterprise Zero-Trust Employee Management System (HRMS)
 
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue.svg?logo=typescript)](https://www.typescriptlang.org/)
-[![Next.js](https://img.shields.io/badge/Next.js-14.2-black.svg?logo=next.js)](https://nextjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg?logo=node.js)](https://nodejs.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB_Atlas-M0_Pooled-green.svg?logo=mongodb)](https://www.mongodb.com/atlas)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
-[![Security](https://img.shields.io/badge/Encryption-AES--256--GCM_FLE-red.svg)](https://en.wikipedia.org/wiki/Galois/Counter_Mode)
-[![Statutory Compliance](https://img.shields.io/badge/Compliance-Sri_Lanka_EPF%20%7C%20ETF%20%7C%20APIT-yellow.svg)]()
+<p align="center">
+  <img src="docs/thumbnail.png" alt="Enterprise Zero-Trust HRMS Showcase Banner" width="100%" style="border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.5);" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/VikumTheekshana/EmployeeManagementSystem"><img src="https://img.shields.io/badge/TypeScript-5.4-blue.svg?logo=typescript" alt="TypeScript" /></a>
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14.2-black.svg?logo=next.js" alt="Next.js" /></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-20+-green.svg?logo=node.js" alt="Node.js" /></a>
+  <a href="https://www.mongodb.com/atlas"><img src="https://img.shields.io/badge/MongoDB_Atlas-M0_Pooled-green.svg?logo=mongodb" alt="MongoDB Atlas" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC.svg?logo=tailwind-css" alt="Tailwind CSS" /></a>
+  <a href="https://en.wikipedia.org/wiki/Galois/Counter_Mode"><img src="https://img.shields.io/badge/Encryption-AES--256--GCM_FLE-red.svg" alt="AES-256 FLE" /></a>
+  <img src="https://img.shields.io/badge/Compliance-Sri_Lanka_EPF%20%7C%20ETF%20%7C%20APIT-yellow.svg" alt="Sri Lanka Compliance" />
+</p>
 
 > A production-grade, enterprise Human Resource Management System (HRMS) built on **Zero-Trust principles**, featuring **Application-Level Field-Level Encryption (AES-256-GCM)**, **Sri Lankan statutory compliance** (EPF, ETF, APIT progressive taxes), **Dynamic Rotating QR Attendance**, **Multi-Gate Offboarding Automations**, and an **Internal AI HR Policy Assistant (RAG Engine)**.
 
