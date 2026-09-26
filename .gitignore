@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables & secrets (CRITICAL for Zero-Trust)
+.env
+.env*.local
+*.env
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+backend/dist/
+frontend/.next/
+frontend/out/
+
+# Logs & temp
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.system_generated/
+scratch/
+
+# Operating System
+.DS_Store
+Thumbs.db
