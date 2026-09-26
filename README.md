@@ -268,6 +268,78 @@ Visit **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ---
 
+## 📂 Project Structure
+
+```text
+EmployeeManagementSystem/
+├── docs/                           # Documentation, architecture & visual media assets
+│   ├── thumbnail.png               # 3D Cyber-Enterprise showcase banner
+│   └── screenshots/                # 9 ultra-crisp 2x Retina interface screenshots
+│       ├── 01_login_portal.png
+│       ├── 02_executive_dashboard.png
+│       ├── 03_employee_360_directory.png
+│       ├── 04_dynamic_qr_attendance.png
+│       ├── 05_multi_policy_leave.png
+│       ├── 06_statutory_payroll.png
+│       ├── 07_lifecycle_and_assets.png
+│       ├── 08_hr_policy_rag_ai.png
+│       └── 09_security_audit_trail.png
+│
+├── backend/                        # Node.js + Express + Strict TypeScript REST API
+│   ├── src/
+│   │   ├── config/                 # Atlas M0 connection pool, env loader & policies
+│   │   ├── core/                   # Zero-Trust core: AES-256 FLE, audit hooks, events
+│   │   │   ├── encryption.ts       # Application-level AES-256-GCM cipher hooks
+│   │   │   ├── event-bus.ts        # Typed asynchronous event bus (onboarding/offboarding)
+│   │   │   └── jwt.ts              # Stateless JWT & cryptographic tokens
+│   │   ├── modules/                # Clean DDD modular architecture
+│   │   │   ├── attendance/         # Dynamic rotating QR kiosk & biometric hooks
+│   │   │   ├── audit/              # Immutable forensic audit logging & telemetry
+│   │   │   ├── auth/               # Multi-tenant auth, user model & RBAC middleware
+│   │   │   ├── employee/           # 360 profile, hierarchy & dynamic JIT masking
+│   │   │   ├── leave/              # Sri Lankan statutory leave engine & approvals
+│   │   │   ├── lifecycle/          # Serialized asset tracking & multi-gate offboarding
+│   │   │   ├── org/                # Multi-tenant organization entities & metadata
+│   │   │   ├── payroll/            # EPF/ETF/APIT engine, PDF payslip & SLIPS export
+│   │   │   └── rag/                # Local TF-IDF semantic vector assistant & docs
+│   │   ├── workers/                # Background cron workers (e.g. payroll batch runs)
+│   │   ├── capture-screenshots.ts  # Automated 2x Retina screenshot studio script
+│   │   ├── seed.ts                 # Pre-seeding tenant, 3-tier users, assets & policies
+│   │   └── server.ts               # Express application entrypoint (:5000)
+│   ├── tests/
+│   │   └── run-all-tests.ts        # Comprehensive 100% automated integration test suite
+│   ├── package.json
+│   └── tsconfig.json
+│
+├── frontend/                       # Next.js 14 App Router + Tailwind CSS + Lucide Icons
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── dashboard/          # Executive dashboard layouts & submodules
+│   │   │   │   ├── attendance/     # Live anti-proxy rotating QR kiosk & punch simulator
+│   │   │   │   ├── audit/          # Forensic security audit telemetry inspector
+│   │   │   │   ├── employees/      # Employee 360 profile & dynamic unmasking directory
+│   │   │   │   ├── leave/          # Statutory quota balances & approval manager
+│   │   │   │   ├── lifecycle/      # Asset inventory matrix & 3-gate clearance workflow
+│   │   │   │   ├── payroll/        # Statutory payroll runs, PDF download & SLIPS export
+│   │   │   │   ├── rag/            # Interactive AI policy assistant with citations
+│   │   │   │   ├── layout.tsx      # Executive sidebar navigation & user context bar
+│   │   │   │   └── page.tsx        # Overview dashboard with real-time KPI metrics
+│   │   │   ├── globals.css         # Executive dark theme tokens & typography
+│   │   │   ├── layout.tsx          # Root HTML metadata & font configurations
+│   │   │   └── page.tsx            # Multi-tenant login portal with 1-click role switcher
+│   │   └── lib/                    # Shared API client & client-side utilities
+│   ├── package.json
+│   ├── tailwind.config.ts
+│   └── tsconfig.json
+│
+├── .gitignore                      # Strict zero-leakage exclusion of secrets & build artifacts
+├── LICENSE                         # Permissive MIT Open Source License
+├── package.json                    # Root monorepo workspace orchestration
+└── README.md                       # Comprehensive enterprise documentation & visual gallery
+```
+
+---
+
 ## 🧪 Comprehensive Integration Test Suite
 
 All 7 modules are validated with 100% automated test coverage directly against MongoDB Atlas:
@@ -308,6 +380,22 @@ All 7 modules are validated with 100% automated test coverage directly against M
 🎉 ALL 7 MODULE INTEGRATION TESTS PASSED WITH 100% SUCCESS!
 ================================================================
 ```
+
+---
+
+## 👤 Author
+
+<p align="left">
+  <b>Vikum Theekshana</b><br>
+  <i>Full-Stack & Enterprise Software Engineer</i>
+</p>
+
+[![GitHub](https://img.shields.io/badge/GitHub-VikumTheekshana-181717?style=flat&logo=github)](https://github.com/VikumTheekshana)
+[![Repository](https://img.shields.io/badge/Repository-EmployeeManagementSystem-blue?style=flat&logo=github)](https://github.com/VikumTheekshana/EmployeeManagementSystem)
+
+* 🌐 **GitHub Profile:** [@VikumTheekshana](https://github.com/VikumTheekshana)
+* 💼 **Project Repository:** [EmployeeManagementSystem](https://github.com/VikumTheekshana/EmployeeManagementSystem)
+* 💡 **Core Expertise:** Zero-Trust Enterprise Architectures, Full-Stack Engineering (Next.js 14, Node.js & Strict TypeScript), Cryptography & Field-Level Encryption (AES-256-GCM), and Statutory Compliance Systems.
 
 ---
 
