@@ -44,6 +44,129 @@ graph TD
 
 ---
 
+## 📸 System Interface & Feature Gallery
+
+<details open>
+<summary><b>1. Multi-Tenant Enterprise Authentication Portal</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/01_login_portal.png" alt="Multi-Tenant Login Portal" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Zero-Trust Login:** Secure tenant isolation (`apex-ceylon`) with JWT session management.
+* **Instant Role Switcher:** One-click pre-seeded credentials for **CEO (SuperAdmin)**, **VP Engineering (Manager)**, and **Lead Architect (Staff)** for instant interactive testing.
+
+</details>
+
+<details open>
+<summary><b>2. Executive Real-Time Dashboard</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/02_executive_dashboard.png" alt="Executive Dashboard" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Role-Tailored KPI Cards:** Displays headcount, active attendance %, pending leaves, monthly statutory payroll spend, and asset allocation.
+* **Executive Quick Actions & Real-Time Feeds:** One-click shortcuts to statutory payroll runs, dynamic QR kiosk, and live audit telemetry.
+
+</details>
+
+<details open>
+<summary><b>3. Employee 360 & Dynamic Data Masking Directory</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/03_employee_360_directory.png" alt="Employee 360 Directory" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Zero-Trust Field Masking:** Financial data (`basicSalary`) and national identity (`NIC`, `Bank Account`) are masked by default (`Rs. •••••••`, `********4455`).
+* **Cryptographic Unmasking with Audit Log:** Authorized SuperAdmins can toggle unmasking in real-time, instantly firing an immutable forensic audit event.
+* **Live Search & Filter:** Filter by department, designation, or employment status across the multi-tier hierarchy.
+
+</details>
+
+<details open>
+<summary><b>4. Anti-Proxy Dynamic Rotating QR Attendance Kiosk</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/04_dynamic_qr_attendance.png" alt="Dynamic QR Attendance Kiosk" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Rotating Cryptographic QR Code:** Automatically generates a new HMAC-SHA256 signed QR token every 30 seconds with animated countdown. Eliminates screenshot forwarding & proxy punches.
+* **Geofence Boundary & Biometric Ingestion:** Verifies office GPS radius and ingests physical webhook punches from ZKTeco/Hikvision hardware.
+
+</details>
+
+<details open>
+<summary><b>5. Sri Lankan Statutory Leave Management Engine</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/05_multi_policy_leave.png" alt="Statutory Leave Management" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Statutory Policy Tracking:** Visual quota cards for Annual (14 days), Casual (7 days), Medical (14 days), Maternity (84 days), and No-Pay leaves.
+* **Automated Accrual & Approval Workflows:** Staff submit requests with date ranges and reasons; Managers approve or reject with automatic deduction.
+
+</details>
+
+<details open>
+<summary><b>6. Sri Lankan Statutory Payroll Engine & Bank SLIPS Export</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/06_statutory_payroll.png" alt="Statutory Payroll Engine" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Automated Statutory Calculations:** Real-time computation of **EPF (8% employee + 12% employer)**, **ETF (3% employer)**, and **Inland Revenue APIT progressive tax brackets**.
+* **Corporate Banking Integration:** One-click generation and download of Sri Lanka Interbank Payment System (**SLIPS CSV**) for batch bank transfers.
+* **Direct PDF Payslip Download:** Instant client-side download of formal computer-generated PDF payslips.
+
+</details>
+
+<details open>
+<summary><b>7. Lifecycle Management & Multi-Gate Offboarding</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/07_lifecycle_and_assets.png" alt="Lifecycle & Asset Management" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Hardware Asset Tracking:** Live inventory tracking laptops (Dell XPS, MacBook Pro), monitors, and NFC security keys with serial numbers and assigned custodians.
+* **Automated Multi-Gate Offboarding:** Triggered by resignation events, enforcing IT asset recovery, Finance gratuity computation (Payment of Gratuity Act No. 12 of 1983), and HR exit clearance.
+
+</details>
+
+<details open>
+<summary><b>8. Internal HR Policy Assistant (Local RAG AI)</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/08_hr_policy_rag_ai.png" alt="Internal HR Policy Assistant RAG" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Zero-Leakage Local AI:** Answers staff queries on company leaves, medical insurance, gratuity, and overtime policies using localized TF-IDF semantic vector retrieval.
+* **Verifiable Source Citations:** Every answer cites the exact policy document and section clause for total transparency and zero hallucination.
+
+</details>
+
+<details open>
+<summary><b>9. Immutable Forensic Security Audit Trail</b></summary>
+<br>
+
+<p align="center">
+  <img src="docs/screenshots/09_security_audit_trail.png" alt="Forensic Security Audit Trail" width="100%" style="border-radius: 8px; border: 1px solid #1e293b;" />
+</p>
+
+* **Zero-Trust Accountability:** Immutable timeline of all system actions (logins, privilege escalations, unmasking of encrypted FLE fields, payroll runs, offboarding clearances).
+* **Deep Forensic Metadata:** Captures Actor ID, action type, IP address, user agent, timestamp, and before/after state diffs.
+
+</details>
+
+---
+
 ## 🚀 Key Engineering Highlights
 
 ### 1. Zero-Trust Security & Application-Level FLE (AES-256-GCM)
